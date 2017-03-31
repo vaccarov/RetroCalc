@@ -12,6 +12,8 @@
 		BDDCC2801E8D0C7100E651D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDCC27E1E8D0C7100E651D0 /* Main.storyboard */; };
 		BDDCC2821E8D0C7100E651D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDCC2811E8D0C7100E651D0 /* Assets.xcassets */; };
 		BDDCC2851E8D0C7100E651D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDCC2831E8D0C7100E651D0 /* LaunchScreen.storyboard */; };
+		BDDCC28D1E8D3A2800E651D0 /* Melancholight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDDCC28C1E8D3A2800E651D0 /* Melancholight.ttf */; };
+		BDDCC28F1E8D3C9700E651D0 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = BDDCC28E1E8D3C9700E651D0 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BDDCC2811E8D0C7100E651D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDDCC2841E8D0C7100E651D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDDCC2861E8D0C7100E651D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDCC28C1E8D3A2800E651D0 /* Melancholight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Melancholight.ttf; sourceTree = "<group>"; };
+		BDDCC28E1E8D3C9700E651D0 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				BDDCC27A1E8D0C7100E651D0 /* AppDelegate.swift */,
+				BDDCC28E1E8D3C9700E651D0 /* btn.wav */,
 				BDDCC27C1E8D0C7100E651D0 /* ViewController.swift */,
+				BDDCC28C1E8D3A2800E651D0 /* Melancholight.ttf */,
 				BDDCC27E1E8D0C7100E651D0 /* Main.storyboard */,
 				BDDCC2811E8D0C7100E651D0 /* Assets.xcassets */,
 				BDDCC2831E8D0C7100E651D0 /* LaunchScreen.storyboard */,
@@ -123,6 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDCC28F1E8D3C9700E651D0 /* btn.wav in Resources */,
+				BDDCC28D1E8D3A2800E651D0 /* Melancholight.ttf in Resources */,
 				BDDCC2851E8D0C7100E651D0 /* LaunchScreen.storyboard in Resources */,
 				BDDCC2821E8D0C7100E651D0 /* Assets.xcassets in Resources */,
 				BDDCC2801E8D0C7100E651D0 /* Main.storyboard in Resources */,
