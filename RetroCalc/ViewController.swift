@@ -72,6 +72,12 @@ class ViewController: UIViewController {
         processOperation(operation: operationCourante)
     }
 
+    @IBAction func clearBtn(_ sender: UIButton) {
+        outputLbl.text = "0"
+        nombreCourant = "0"
+        nbrGauche = "0"
+        operationCourante = Operation.Empty
+    }
     func processOperation(operation : Operation){
         playSound()
         if operationCourante != Operation.Empty {

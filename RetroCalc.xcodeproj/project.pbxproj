@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDCDB05B1E8E601B00826260 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCDB05A1E8E601B00826260 /* MainController.swift */; };
 		BDDCC27B1E8D0C7100E651D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDCC27A1E8D0C7100E651D0 /* AppDelegate.swift */; };
 		BDDCC27D1E8D0C7100E651D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDCC27C1E8D0C7100E651D0 /* ViewController.swift */; };
 		BDDCC2801E8D0C7100E651D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDCC27E1E8D0C7100E651D0 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDCDB05A1E8E601B00826260 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		BDDCC2771E8D0C7100E651D0 /* RetroCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDCC27A1E8D0C7100E651D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDDCC27C1E8D0C7100E651D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				BDDCC2811E8D0C7100E651D0 /* Assets.xcassets */,
 				BDDCC2831E8D0C7100E651D0 /* LaunchScreen.storyboard */,
 				BDDCC2861E8D0C7100E651D0 /* Info.plist */,
+				BDCDB05A1E8E601B00826260 /* MainController.swift */,
 			);
 			path = RetroCalc;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDDCC27D1E8D0C7100E651D0 /* ViewController.swift in Sources */,
+				BDCDB05B1E8E601B00826260 /* MainController.swift in Sources */,
 				BDDCC27B1E8D0C7100E651D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +313,7 @@
 				BDDCC28B1E8D0C7100E651D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
